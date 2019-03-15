@@ -1,0 +1,49 @@
+{
+  "name": "confrenss-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "connected-react-router": "^6.3.1",
+    "history": "^4.7.2",
+    "i18next": "^15.0.4",
+    "i18next-browser-languagedetector": "^3.0.1",
+    "localStorage": "^1.0.4",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-i18next": "^10.2.0",
+    "react-redux": "^6.0.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "reactstrap": "^7.1.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.1.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "flow": "node_modules/.bin/flow",
+    "flow_check": "clear && node_modules/.bin/flow stop && node_modules/.bin/flow"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.94.0",
+    "node-sass": "^4.11.0",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-logger": "^3.0.6"
+  }
+}
